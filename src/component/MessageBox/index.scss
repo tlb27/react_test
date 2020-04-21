@@ -1,0 +1,59 @@
+.contain{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #ccc;
+    .header{
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            color: rgb(109, 106, 106);
+        }
+    }
+    .body{
+        flex: 1;
+        padding: 10px 16px;
+        overflow: hidden;
+        ul{
+           padding-left: 0;
+           display: flex; 
+           flex-direction: column;
+           list-style: none;
+           li{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            span.city{
+                color:rgb(78, 74, 74);
+            }
+            span.time{
+                color: rgb(109, 106, 106);
+            }
+            span{
+                
+                a{
+                    text-decoration: none;
+                    color: #297ece;
+                }
+               
+            }
+        }
+        }
+       
+    }
+}
